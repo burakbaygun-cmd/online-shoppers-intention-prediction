@@ -47,8 +47,8 @@ online-shoppers-intention-prediction/
 | Model | ROC-AUC | F1 (Revenue) |
 |---|---|---|
 | Logistic Regression (Baseline) | 0.9083 | 0.62 |
-| Random Forest | 0.9303 | — |
-| Gradient Boosting | **0.9373** | — |
+| Random Forest | 0.9303 | 0.64 |
+| Gradient Boosting | **0.9373** | **0.66** |
 
 Sinif dengesizligi `class_weight='balanced'` ve `compute_sample_weight` ile
 ele alinmistir. 5-Fold Stratified CV sonuclari test seti performansiyla tutarlidir.
